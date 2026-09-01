@@ -1,0 +1,137 @@
+:root {
+  color-scheme: light;
+}
+
+.manjam-auth-gateway {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  display: grid;
+  place-items: start center;
+  overflow: auto;
+  padding: 80px 24px 40px;
+  background: #fff;
+  color: #111;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.manjam-auth-card {
+  width: min(100%, 400px);
+}
+
+.manjam-auth-logo {
+  display: block;
+  width: 178px;
+  height: auto;
+  margin: 0 auto 28px;
+}
+
+.manjam-auth-title {
+  margin: 0 0 8px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.manjam-auth-intro,
+.manjam-auth-security {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.manjam-auth-form {
+  display: grid;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.manjam-auth-field {
+  display: grid;
+  gap: 7px;
+}
+
+.manjam-auth-field label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.manjam-auth-field input {
+  width: 100%;
+  min-height: 48px;
+  box-sizing: border-box;
+  padding: 11px 13px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  background: #fff;
+  color: #111;
+  font: inherit;
+}
+
+.manjam-auth-field input:focus-visible,
+.manjam-auth-button:focus-visible,
+.manjam-auth-link:focus-visible {
+  outline: 3px solid rgba(24, 144, 255, 0.28);
+  outline-offset: 2px;
+}
+
+.manjam-auth-button {
+  min-height: 48px;
+  border: 1px solid #111;
+  border-radius: 2px;
+  background: #111;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.manjam-auth-button[disabled] {
+  border-color: #d9d9d9;
+  background: #ededed;
+  color: #999;
+  cursor: wait;
+}
+
+.manjam-auth-link {
+  min-height: 44px;
+  border: 0;
+  background: transparent;
+  color: #333;
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.manjam-auth-status {
+  min-height: 21px;
+  margin: 18px 0 0;
+  color: #b42318;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.manjam-auth-status[data-state="success"] {
+  color: #176b3a;
+}
+
+.manjam-auth-security {
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 1px solid #eee;
+  font-size: 12px;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 480px) {
+  .manjam-auth-gateway {
+    padding-top: 48px;
+  }
+}

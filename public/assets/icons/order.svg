@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_4240" data-name="Group 4240" transform="translate(-10 -66)">
+    <g id="Group_4072" data-name="Group 4072" transform="translate(-12 -260)">
+      <circle id="Ellipse_719" data-name="Ellipse 719" cx="12" cy="12" r="12" transform="translate(22 326)" fill="#ff550a"/>
+    </g>
+    <g id="Icon_add_shopping_cart_Sharp" data-name="Icon / add shopping cart / Sharp" transform="translate(15 71)">
+      <rect id="Box" width="15" height="15" fill="none"/>
+      <path id="Path_2013" data-name="Path 2013" d="M8.226-17.455H9.487v-1.892h1.892v-1.261H9.487V-22.5H8.226v1.892H6.334v1.261H8.226ZM5.7-11.78a1.259,1.259,0,0,0-1.255,1.261A1.259,1.259,0,0,0,5.7-9.258a1.265,1.265,0,0,0,1.261-1.261A1.265,1.265,0,0,0,5.7-11.78Zm6.306,0a1.259,1.259,0,0,0-1.255,1.261,1.259,1.259,0,0,0,1.255,1.261,1.265,1.265,0,0,0,1.261-1.261A1.265,1.265,0,0,0,12.009-11.78ZM6.4-14.933h4.7a1.255,1.255,0,0,0,1.1-.649L14.632-20l-1.1-.605-2.44,4.414H6.668L3.982-21.869H1.92v1.261H3.181l2.27,4.786L3.572-12.411h9.7v-1.261H5.7Z" transform="translate(-1.289 23.131)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
